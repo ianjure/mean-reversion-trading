@@ -1,5 +1,7 @@
 # Mean Reversion Trading &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ianjure/mean-reversion-trading/blob/main/Mean_Reversion_Notebook.ipynb) &nbsp; [![Static Badge](https://img.shields.io/badge/Visit%20Website-red?style=flat&logo=streamlit&logoSize=auto&labelColor=%23ffffff&color=%23ff4b4c)](https://tradestrats.streamlit.app/)
 
+Mean reversion is a financial theory which suggests that, after an extreme price move, asset prices tend to return back to normal or average levels.
+
 ## Data Overview
 We will obtain historical price data for the stock from **Yahoo Finance** using the [yfinance](https://pypi.org/project/yfinance/) library. This dataset will include columns such as opening and closing prices, which are essential for simulating the trading strategy.
 
