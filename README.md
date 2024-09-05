@@ -1,4 +1,4 @@
-# Mean Reversion Trading &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ianjure/mean-reversion-trading/blob/main/Mean_Reversion_Notebook.ipynb) &nbsp; [![Static Badge](https://img.shields.io/badge/Visit%20Website-red?style=flat&logo=streamlit&logoSize=auto&labelColor=%23ffffff&color=%23ff4b4c)](https://tradestrats.streamlit.app/meanreversion)
+# Mean Reversion Trading &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ianjure/mean-reversion-trading/blob/main/Mean_Reversion_Notebook.ipynb) &nbsp; [![Static Badge](https://img.shields.io/badge/Visit%20the%20Website-red?style=flat&logo=streamlit&logoSize=auto&labelColor=%23ffffff&color=%23ff4b4c)](https://tradestrats.streamlit.app/meanreversion)
 
 Mean reversion is a financial theory that suggests asset prices tend to return to their average levels after an extreme price movement. The goal of this project is to develop an algorithm that replicates this strategy and simulates its returns using historical stock data.
 
