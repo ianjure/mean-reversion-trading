@@ -1,21 +1,20 @@
-# Mean Reversion Trading &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ianjure/mean-reversion-trading/blob/main/Mean_Reversion_Notebook.ipynb) &nbsp; [![Static Badge](https://img.shields.io/badge/Visit%20Website-red?style=flat&logo=streamlit&logoSize=auto&labelColor=%23ffffff&color=%23ff4b4c)](https://tradestrats.streamlit.app/)
+# Mean Reversion Trading &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ianjure/mean-reversion-trading/blob/main/Mean_Reversion_Notebook.ipynb) &nbsp; [![Static Badge](https://img.shields.io/badge/Visit%20Website-red?style=flat&logo=streamlit&logoSize=auto&labelColor=%23ffffff&color=%23ff4b4c)](https://tradestrats.streamlit.app/meanreversion)
 
-Mean reversion is a financial theory which suggests that, after an extreme price move, asset prices tend to return back to normal or average levels. The goal of this project is to replicate the strategy using python and simulate its returns using a stock's historical data.
+Mean reversion is a financial theory that suggests asset prices tend to return to their average levels after an extreme price movement. The goal of this project is to develop an algorithm that replicates this strategy and simulates its returns using historical stock data.
 
 ## Data Overview
-We will obtain historical price data for the stock from **Yahoo Finance** using the [yfinance](https://pypi.org/project/yfinance/) library. This dataset will include the closing prices column, which is essential for simulating the trading strategy. We will also use Pandas Technical Analysis Indicators library to create two additional columns, the RSI (Relative Strength Index) and SMA (Simple Moving Average).
+We will retrieve historical price data for the stock from Yahoo Finance using the [yfinance](https://pypi.org/project/yfinance/) library. This dataset will include the closing prices, which are crucial for simulating the trading strategy. Additionally, we will use [pandas-ta](https://pypi.org/project/pandas-ta/), a technical analysis library, to calculate two key indicators: the Relative Strength Index (RSI) and the Simple Moving Average (SMA).
 
 ## Project Method
 1. **Collect the Data:** Retrieve stock price data from Yahoo Finance.
 2. **Clean the Data:** Remove irrelevant features and standardize the index format.
-3. **Create New Features:** Compute daily returns and classify the data into distinct states.
-4. **Build the Model:** Estimate state probabilities for the transition matrix.
-5. **Simulate the Strategy:** Execute simulated trades and calculate the expected returns.
-6. **Deploy the Model:** Create a web application enabling users to test the model.
+3. **Create New Features:** Use pandas-ta to calculate the 10-period RSI and 200-period SMA.
+4. **Simulate the Strategy:** Apply the entry and exit conditions to execute the strategy and calculate the expected returns.
+5. **Deploy the Model:** Develop a web application that allows users to test the model.
 
 ## Next Steps
-* **Identify** methods to improve the strategy's win rate.
 * **Explore** and evaluate additional trading strategies.
+* **Experiment** with different combinations of RSI and SMA periods.
 
 <br>
 
